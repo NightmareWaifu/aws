@@ -23,6 +23,8 @@ def test_get_blogs():
     #print(items["Items"])
     for blog in blogs["Items"]:
         print(blog)
+        #e.g. you have title and description column
+        #get by doing blog["description"] and blog["title"]
 
 #add item
 def test_add_blogs():
